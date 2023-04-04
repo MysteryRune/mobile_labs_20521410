@@ -21,7 +21,7 @@
         android:layout_height="160dp"
         android:padding="7dp"
         android:text="Heed not the rabble"
-        android:background="@color/color7"
+        android:background="@color/color3"
         app:layout_constraintLeft_toRightOf="@+id/t1"
         app:layout_constraintEnd_toEndOf="parent"
         tools:ignore="MissingConstraints" />
