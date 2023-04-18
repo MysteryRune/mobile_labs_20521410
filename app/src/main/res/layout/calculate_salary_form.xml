@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    android:background="@color/blue_pastel"
+    tools:context=".CalculateSalaryForm">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calculate_salary"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/full_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="@string/full_name"
+        android:inputType="text"
+        android:textColorHint="@color/gray"
+        android:textSize="20sp"
+        android:translationY="20sp" />
+
+    <EditText
+        android:id="@+id/gross_salary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/salary"
+        android:textColorHint="@color/gray"
+        android:inputType="text"
+        android:textSize="20sp"
+        android:translationY="20sp"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/calculateBtt"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:background="@color/purple_700"
+        android:textColor="@color/blue_pastel"
+        android:text="@string/calculate"
+        android:translationY="50dp" />
+
+    <ListView
+        android:id="@+id/net_salary"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:translationY="80dp"
+
+        />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

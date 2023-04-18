@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">lab02</string>
+    <string name="calculate_salary">Calculate Salary</string>
+    <string name="full_name">Full name</string>
+    <string name="salary">Salary</string>
+    <string name="calculate">Calculate</string>
+    <string name="none">None</string>
+</resources>
