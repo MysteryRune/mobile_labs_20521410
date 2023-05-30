@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">lab04</string>
+    <string name="mobile_labs">Mobile Labs</string>
+    <string name="Null" />
+    <string name="welcome">Welcome!</string>
+    <string name="click_here_to_continue_vi">Nhấn vào đây để tiếp tục</string>
+    <string name="welcome_vi">Chào mừng!</string>
+    <string name="direct_navigation_1_vi">Nhấn vào \'Chào mừng!\' để tiếp tục</string>
+    <string name="full_name">Full Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="back_to">Back to\ </string>
+    <string name="login">Login</string>
+    <string name="don_t_have_an_account">Don\'t have an account?\ </string>
+    <string name="log_out">Log Out</string>
+</resources>
