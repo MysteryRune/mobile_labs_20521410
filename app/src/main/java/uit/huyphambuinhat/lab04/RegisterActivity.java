@@ -93,6 +93,7 @@ public class RegisterActivity extends AppCompatActivity {
                 String phoneNumber = phoneNumberField.getText().toString();
                 String username = usernameField.getText().toString();
                 String password = passwordField.getText().toString();
+                password = encryptPass.sha256(password);
                 if (
                         (fullName != null && !fullName.equals("")) &&
                         (phoneNumber != null && !phoneNumber.equals("")) &&

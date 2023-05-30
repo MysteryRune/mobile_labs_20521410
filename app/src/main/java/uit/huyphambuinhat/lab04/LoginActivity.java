@@ -1,5 +1,8 @@
 package uit.huyphambuinhat.lab04;
 
+import static androidx.constraintlayout.helper.widget.MotionEffect.TAG;
+
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -7,6 +10,7 @@ import android.os.Build;
 import android.os.Bundle;
 
 import android.os.Handler;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
@@ -19,6 +23,21 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.PopupWindow;
 import android.widget.TextView;
+import android.widget.Toast;
+
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.firestore.QueryDocumentSnapshot;
+import com.google.firebase.firestore.QuerySnapshot;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.android.material.textfield.TextInputLayout;
+import com.google.firebase.firestore.CollectionReference;
+import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.firestore.Query;
+import com.google.firebase.firestore.QueryDocumentSnapshot;
+import com.google.firebase.firestore.QuerySnapshot;
 
 public class LoginActivity extends AppCompatActivity {
     public void HideSystemStatusBar(int AndroidVersion) {
@@ -69,21 +88,53 @@ public class LoginActivity extends AppCompatActivity {
             public void onClick(View view) {
                 EditText passwordField = (EditText) findViewById(R.id.password);
                 String password = passwordField.getText().toString();
+                password = encryptPass.sha256(password);
 
-                if (password.equals("123")) {
-                    onButtonShowPopupWindowClick(view);
-                }
-                else {
-                    Intent intent = new Intent(LoginActivity.this,
-                            HomePageActivity.class);
-                    startActivity(intent);
-                    finish();
+                checkLogin();
+            }
+        });
+    }
+
+    private CollectionReference usersRef;
+
+    protected void checkLogin(){
+        EditText usernameField = (EditText) findViewById(R.id.username);
+        String username = usernameField.getText().toString();
+        EditText passwordField = (EditText) findViewById(R.id.password);
+        String encryptPassword = passwordField.getText().toString();
+        encryptPassword = encryptPass.sha256(encryptPassword);
+
+        FirebaseFirestore db = FirebaseFirestore.getInstance();
+        usersRef = db.collection("users");
+        Query query = usersRef.whereEqualTo("username", username);
+        String finalEncryptPassword = encryptPassword;
+        query.get().addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
+
+            @Override
+            public void onComplete(@NonNull Task<QuerySnapshot> task) {
+                if (task.isSuccessful()) {
+                    for (QueryDocumentSnapshot document : task.getResult()) {
+                        // Check if the password matches
+                        if (document.getString("password").equals(finalEncryptPassword)) {
+                            // Password is correct
+                            Toast.makeText(getApplicationContext(), "Log In Successfully", Toast.LENGTH_SHORT).show();
+                            Intent intent = new Intent(LoginActivity.this,
+                                    HomePageActivity.class);
+                            startActivity(intent);
+                            finish();
+                        } else {
+                            // Password is incorrect
+                            Toast.makeText(LoginActivity.this, "Incorrect Username or Password", Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                } else {
+                    Log.d(TAG, "Error getting data for account: ", task.getException());
                 }
             }
         });
     }
 
-    public void onButtonShowPopupWindowClick(View view) {
+    public void showPopupWindowWrongUsernamePass(View view) {
 
         // inflate the layout of the popup window
         LayoutInflater inflater = (LayoutInflater)
