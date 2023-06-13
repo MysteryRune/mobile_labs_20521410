@@ -3,11 +3,13 @@ package uit.huyphambuinhat.lab05;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
+import android.view.animation.AlphaAnimation;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.Button;
@@ -80,7 +82,27 @@ public class HomePageActivity extends AppCompatActivity{
             }
         });
     }
+    private void handleTranslationPageClickAnimationXml(ImageView btn, int animId, int animId2) {
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent iNewActivity = new Intent(HomePageActivity.this, NewActivityActivity.class);
+                startActivity(iNewActivity);
 
+                overridePendingTransition(animId, animId2);
+            }
+        });
+    }
+
+    private void handleClickAnimationCode(Button btn, final Animation animation) {
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                ivUitLogo.startAnimation(animation);
+            }
+        });
+
+    }
     public void HideSystemStatusBar(int AndroidVersion) {
         supportRequestWindowFeature(Window.FEATURE_NO_TITLE);
         if (AndroidVersion < 16) {
@@ -105,6 +127,33 @@ public class HomePageActivity extends AppCompatActivity{
         decorView.setSystemUiVisibility(uiOptions);
     }
 
+
+
+    private Animation initFadeInAnimation(){
+        AlphaAnimation animation = new AlphaAnimation(0f, 1f);
+        animation.setDuration(3000);
+        animation.setFillAfter(true);
+        animation.setAnimationListener(animationListener);
+        return animation;
+    }
+    private Animation initFadeOutAnimation(){
+        AlphaAnimation animation = new AlphaAnimation(1f, 0f);
+        animation.setDuration(1000);
+        animation.setFillAfter(true);
+        animation.setAnimationListener(animationListener);
+        return animation;
+    }
+    private Animation initBlinkAnimation(){
+        AlphaAnimation animation = new AlphaAnimation(0f, 1f);
+        animation.setDuration(300);
+        animation.setRepeatMode(2);
+        animation.setRepeatCount(3);
+        animation.setAnimationListener(animationListener);
+        return animation;
+    }
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -127,6 +176,12 @@ public class HomePageActivity extends AppCompatActivity{
         handleClickAnimationXml(btnSlideUpXml, R.xml.anim_slide_up);
         handleClickAnimationXml(btnBounceXml, R.xml.anim_bounce);
         handleClickAnimationXml(btnCombineCode, R.xml.anim_combine);
+
+        handleClickAnimationCode(btnFadeInCode, initFadeInAnimation());
+        handleClickAnimationCode(btnFadeOutCode, initFadeOutAnimation());
+        handleClickAnimationCode(btnBlinkCode, initBlinkAnimation());
+
+        handleTranslationPageClickAnimationXml(ivUitLogo, R.xml.anim_enter, R.xml.anim_exit);
     }
 
 }
