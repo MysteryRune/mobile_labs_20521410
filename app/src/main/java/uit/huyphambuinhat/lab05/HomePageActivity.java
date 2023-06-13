@@ -183,7 +183,7 @@ public class HomePageActivity extends AppCompatActivity{
         handleClickAnimationXml(btnMoveXml, R.xml.anim_move);
         handleClickAnimationXml(btnSlideUpXml, R.xml.anim_slide_up);
         handleClickAnimationXml(btnBounceXml, R.xml.anim_bounce);
-        handleClickAnimationXml(btnCombineCode, R.xml.anim_combine);
+        handleClickAnimationXml(btnCombineXml, R.xml.anim_combine);
 
         handleClickAnimationCode(btnFadeInCode, initFadeInAnimation());
         handleClickAnimationCode(btnFadeOutCode, initFadeOutAnimation());
