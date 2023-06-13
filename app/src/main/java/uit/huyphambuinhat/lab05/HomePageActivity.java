@@ -151,6 +151,14 @@ public class HomePageActivity extends AppCompatActivity{
         animation.setAnimationListener(animationListener);
         return animation;
     }
+    private Animation initZoomInAnimation(){
+        AlphaAnimation animation = new AlphaAnimation(0f, 1f);
+        animation.setDuration(1000);
+        animation.setRepeatMode(2);
+        animation.setRepeatCount(3);
+        animation.setAnimationListener(animationListener);
+        return animation;
+    }
 
 
 
@@ -181,7 +189,7 @@ public class HomePageActivity extends AppCompatActivity{
         handleClickAnimationCode(btnFadeOutCode, initFadeOutAnimation());
         handleClickAnimationCode(btnBlinkCode, initBlinkAnimation());
 
-        handleTranslationPageClickAnimationXml(ivUitLogo, R.xml.anim_enter, R.xml.anim_exit);
+        handleTranslationPageClickAnimationXml(ivUitLogo, R.xml.anim_fade_in, R.xml.anim_fade_out);
     }
 
 }
