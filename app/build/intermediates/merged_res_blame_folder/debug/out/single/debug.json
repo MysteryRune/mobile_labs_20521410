@@ -1,0 +1,454 @@
+[
+    {
+        "merged": "com.example.socialapp-merged_res-32:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.socialapp-main-34:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_bg_btn_post.xml.flat",
+        "source": "com.example.socialapp-main-34:/drawable/bg_btn_post.xml"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_desktop3.jpg.flat",
+        "source": "com.example.socialapp-main-34:/drawable/desktop3.jpg"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.socialapp-main-34:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.socialapp-main-34:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_trachanh.jpg.flat",
+        "source": "com.example.socialapp-main-34:/drawable/trachanh.jpg"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_clothe2.jpg.flat",
+        "source": "com.example.socialapp-main-34:/drawable/clothe2.jpg"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_e.jpg.flat",
+        "source": "com.example.socialapp-main-34:/drawable/e.jpg"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/layout_profile_otheruser.xml.flat",
+        "source": "com.example.socialapp-main-34:/layout/profile_otheruser.xml"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_car6.jpg.flat",
+        "source": "com.example.socialapp-main-34:/drawable/car6.jpg"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_bg_btn_onboding.xml.flat",
+        "source": "com.example.socialapp-main-34:/drawable/bg_btn_onboding.xml"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.socialapp-main-34:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_desktop4.jpg.flat",
+        "source": "com.example.socialapp-main-34:/drawable/desktop4.jpg"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/anim_in_bottomsheet.xml.flat",
+        "source": "com.example.socialapp-main-34:/anim/in_bottomsheet.xml"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_apple.png.flat",
+        "source": "com.example.socialapp-main-34:/drawable/apple.png"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/xml_backup_rules.xml.flat",
+        "source": "com.example.socialapp-main-34:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_dog6.jpg.flat",
+        "source": "com.example.socialapp-main-34:/drawable/dog6.jpg"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_bg_searchview.xml.flat",
+        "source": "com.example.socialapp-main-34:/drawable/bg_searchview.xml"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_container_bottomsheet.xml.flat",
+        "source": "com.example.socialapp-main-34:/drawable/container_bottomsheet.xml"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_f.jpg.flat",
+        "source": "com.example.socialapp-main-34:/drawable/f.jpg"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/layout_custom_gridview.xml.flat",
+        "source": "com.example.socialapp-main-34:/layout/custom_gridview.xml"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.socialapp-main-34:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/layout_bottomsheet_post.xml.flat",
+        "source": "com.example.socialapp-main-34:/layout/bottomsheet_post.xml"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_clothe1.jpg.flat",
+        "source": "com.example.socialapp-main-34:/drawable/clothe1.jpg"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_car5.jpg.flat",
+        "source": "com.example.socialapp-main-34:/drawable/car5.jpg"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_facebook.png.flat",
+        "source": "com.example.socialapp-main-34:/drawable/facebook.png"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_check.png.flat",
+        "source": "com.example.socialapp-main-34:/drawable/check.png"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_home.png.flat",
+        "source": "com.example.socialapp-main-34:/drawable/home.png"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_card.png.flat",
+        "source": "com.example.socialapp-main-34:/drawable/card.png"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/layout_fragment_search.xml.flat",
+        "source": "com.example.socialapp-main-34:/layout/fragment_search.xml"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_bg_texthome.xml.flat",
+        "source": "com.example.socialapp-main-34:/drawable/bg_texthome.xml"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_cat1.jpg.flat",
+        "source": "com.example.socialapp-main-34:/drawable/cat1.jpg"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_profile.png.flat",
+        "source": "com.example.socialapp-main-34:/drawable/profile.png"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_clothe4.jpg.flat",
+        "source": "com.example.socialapp-main-34:/drawable/clothe4.jpg"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/layout_dialog_login.xml.flat",
+        "source": "com.example.socialapp-main-34:/layout/dialog_login.xml"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.socialapp-main-34:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_follow.png.flat",
+        "source": "com.example.socialapp-main-34:/drawable/follow.png"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_car4.jpg.flat",
+        "source": "com.example.socialapp-main-34:/drawable/car4.jpg"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_name.png.flat",
+        "source": "com.example.socialapp-main-34:/drawable/name.png"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_c.jpg.flat",
+        "source": "com.example.socialapp-main-34:/drawable/c.jpg"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_man.png.flat",
+        "source": "com.example.socialapp-main-34:/drawable/man.png"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_search.png.flat",
+        "source": "com.example.socialapp-main-34:/drawable/search.png"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_tradau.jpg.flat",
+        "source": "com.example.socialapp-main-34:/drawable/tradau.jpg"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_desktop1.jpg.flat",
+        "source": "com.example.socialapp-main-34:/drawable/desktop1.jpg"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_password.png.flat",
+        "source": "com.example.socialapp-main-34:/drawable/password.png"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/layout_item_user.xml.flat",
+        "source": "com.example.socialapp-main-34:/layout/item_user.xml"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/layout_fragment_profile.xml.flat",
+        "source": "com.example.socialapp-main-34:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_dog1.jpg.flat",
+        "source": "com.example.socialapp-main-34:/drawable/dog1.jpg"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_car1.jpg.flat",
+        "source": "com.example.socialapp-main-34:/drawable/car1.jpg"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_tradao.jpg.flat",
+        "source": "com.example.socialapp-main-34:/drawable/tradao.jpg"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_clothe5.jpg.flat",
+        "source": "com.example.socialapp-main-34:/drawable/clothe5.jpg"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_cat2.jpg.flat",
+        "source": "com.example.socialapp-main-34:/drawable/cat2.jpg"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_save.png.flat",
+        "source": "com.example.socialapp-main-34:/drawable/save.png"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_bg_login.xml.flat",
+        "source": "com.example.socialapp-main-34:/drawable/bg_login.xml"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_dog4.jpg.flat",
+        "source": "com.example.socialapp-main-34:/drawable/dog4.jpg"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/mipmap-anydpi-v33_ic_launcher.xml.flat",
+        "source": "com.example.socialapp-main-34:/mipmap-anydpi-v33/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.socialapp-main-34:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.socialapp-main-34:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.socialapp-main-34:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.socialapp-main-34:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_more.png.flat",
+        "source": "com.example.socialapp-main-34:/drawable/more.png"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.socialapp-main-34:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_trasua.gif.flat",
+        "source": "com.example.socialapp-main-34:/drawable/trasua.gif"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_car2.jpg.flat",
+        "source": "com.example.socialapp-main-34:/drawable/car2.jpg"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_clothe6.jpg.flat",
+        "source": "com.example.socialapp-main-34:/drawable/clothe6.jpg"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_item_select.xml.flat",
+        "source": "com.example.socialapp-main-34:/drawable/item_select.xml"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.socialapp-main-34:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_heart.png.flat",
+        "source": "com.example.socialapp-main-34:/drawable/heart.png"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_a.jpg.flat",
+        "source": "com.example.socialapp-main-34:/drawable/a.jpg"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_dog3.jpg.flat",
+        "source": "com.example.socialapp-main-34:/drawable/dog3.jpg"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/layout_fragment_following.xml.flat",
+        "source": "com.example.socialapp-main-34:/layout/fragment_following.xml"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_cat5.jpg.flat",
+        "source": "com.example.socialapp-main-34:/drawable/cat5.jpg"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_desktop6.jpg.flat",
+        "source": "com.example.socialapp-main-34:/drawable/desktop6.jpg"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/anim_out_bottomsheet.xml.flat",
+        "source": "com.example.socialapp-main-34:/anim/out_bottomsheet.xml"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/layout_fragment_like.xml.flat",
+        "source": "com.example.socialapp-main-34:/layout/fragment_like.xml"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_bg_edit_text_login.xml.flat",
+        "source": "com.example.socialapp-main-34:/drawable/bg_edit_text_login.xml"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_google.png.flat",
+        "source": "com.example.socialapp-main-34:/drawable/google.png"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_cat4.jpg.flat",
+        "source": "com.example.socialapp-main-34:/drawable/cat4.jpg"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_b.jpg.flat",
+        "source": "com.example.socialapp-main-34:/drawable/b.jpg"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_dog2.jpg.flat",
+        "source": "com.example.socialapp-main-34:/drawable/dog2.jpg"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/menu_nav_menu.xml.flat",
+        "source": "com.example.socialapp-main-34:/menu/nav_menu.xml"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_bg_bottomsheet.xml.flat",
+        "source": "com.example.socialapp-main-34:/drawable/bg_bottomsheet.xml"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_addition.png.flat",
+        "source": "com.example.socialapp-main-34:/drawable/addition.png"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/layout_image_detail.xml.flat",
+        "source": "com.example.socialapp-main-34:/layout/image_detail.xml"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.socialapp-main-34:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.socialapp-main-34:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_bg_gridview.xml.flat",
+        "source": "com.example.socialapp-main-34:/drawable/bg_gridview.xml"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/layout_main_screen.xml.flat",
+        "source": "com.example.socialapp-main-34:/layout/main_screen.xml"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_dog5.jpg.flat",
+        "source": "com.example.socialapp-main-34:/drawable/dog5.jpg"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_cat3.jpg.flat",
+        "source": "com.example.socialapp-main-34:/drawable/cat3.jpg"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/layout_main_activity.xml.flat",
+        "source": "com.example.socialapp-main-34:/layout/main_activity.xml"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_travai.jpg.flat",
+        "source": "com.example.socialapp-main-34:/drawable/travai.jpg"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_woman.png.flat",
+        "source": "com.example.socialapp-main-34:/drawable/woman.png"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_group.png.flat",
+        "source": "com.example.socialapp-main-34:/drawable/group.png"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/layout_fragment_home.xml.flat",
+        "source": "com.example.socialapp-main-34:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/layout_fragment_save.xml.flat",
+        "source": "com.example.socialapp-main-34:/layout/fragment_save.xml"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/layout_fragment_post.xml.flat",
+        "source": "com.example.socialapp-main-34:/layout/fragment_post.xml"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_bg_profile.xml.flat",
+        "source": "com.example.socialapp-main-34:/drawable/bg_profile.xml"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_car3.jpg.flat",
+        "source": "com.example.socialapp-main-34:/drawable/car3.jpg"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_start_image.gif.flat",
+        "source": "com.example.socialapp-main-34:/drawable/start_image.gif"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_user.png.flat",
+        "source": "com.example.socialapp-main-34:/drawable/user.png"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_clothe3.jpg.flat",
+        "source": "com.example.socialapp-main-34:/drawable/clothe3.jpg"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_gamer.png.flat",
+        "source": "com.example.socialapp-main-34:/drawable/gamer.png"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_d.jpg.flat",
+        "source": "com.example.socialapp-main-34:/drawable/d.jpg"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_panda.png.flat",
+        "source": "com.example.socialapp-main-34:/drawable/panda.png"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_desktop2.jpg.flat",
+        "source": "com.example.socialapp-main-34:/drawable/desktop2.jpg"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.socialapp-main-34:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_girl.png.flat",
+        "source": "com.example.socialapp-main-34:/drawable/girl.png"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/layout_dialog_signup.xml.flat",
+        "source": "com.example.socialapp-main-34:/layout/dialog_signup.xml"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_desktop5.jpg.flat",
+        "source": "com.example.socialapp-main-34:/drawable/desktop5.jpg"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_phone_icon.png.flat",
+        "source": "com.example.socialapp-main-34:/drawable/phone_icon.png"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_tratac.jpg.flat",
+        "source": "com.example.socialapp-main-34:/drawable/tratac.jpg"
+    },
+    {
+        "merged": "com.example.socialapp-merged_res-32:/drawable_cat6.jpg.flat",
+        "source": "com.example.socialapp-main-34:/drawable/cat6.jpg"
+    }
+]
