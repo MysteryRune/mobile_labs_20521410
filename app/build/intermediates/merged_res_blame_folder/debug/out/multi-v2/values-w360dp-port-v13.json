@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.socialapp-mergeDebugResources-30:/values-w360dp-port-v13/values-w360dp-port-v13.xml",
+            "outputFile": "com.example.socialapp-mergeDebugResources-34:/values-w360dp-port-v13/values-w360dp-port-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ASUS\\.gradle\\caches\\transforms-3\\1072879069efd070fb6992aa0ec3c2d9\\transformed\\material-1.9.0\\res\\values-w360dp-port-v13\\values-w360dp-port-v13.xml",
+                    "source": "C:\\Users\\ASUS\\.gradle\\caches\\transforms-3\\9c048494c354f2276a4edf821edcb926\\transformed\\material-1.9.0\\res\\values-w360dp-port-v13\\values-w360dp-port-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

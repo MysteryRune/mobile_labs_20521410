@@ -15,9 +15,7 @@ drawable apple
 drawable b
 drawable bg_bottomsheet
 drawable bg_btn_onboding
-drawable bg_btn_post
 drawable bg_edit_text_login
-drawable bg_gridview
 drawable bg_login
 drawable bg_profile
 drawable bg_searchview
@@ -36,7 +34,6 @@ drawable cat3
 drawable cat4
 drawable cat5
 drawable cat6
-drawable check
 drawable clothe1
 drawable clothe2
 drawable clothe3
@@ -64,7 +61,6 @@ drawable follow
 drawable gamer
 drawable girl
 drawable google
-drawable group
 drawable heart
 drawable home
 drawable ic_launcher_background
@@ -164,9 +160,14 @@ layout main_screen
 layout profile_otheruser
 menu nav_menu
 mipmap ic_launcher
-mipmap ic_launcher_round
 string app_name
-string hello_blank_fragment
+string default_web_client_id
+string gcm_defaultSenderId
+string google_api_key
+string google_app_id
+string google_crash_reporting_api_key
+string google_storage_bucket
+string project_id
 style Animation
 style Theme.SocialApp
 xml backup_rules
