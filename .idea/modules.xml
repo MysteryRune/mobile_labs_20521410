@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/SocialApp.iml" filepath="$PROJECT_DIR$/.idea/SocialApp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/SocialApp.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/SocialApp.app.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/SocialApp.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/SocialApp.app.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/SocialApp.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/SocialApp.app.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/SocialApp.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/SocialApp.app.unitTest.iml" />
     </modules>
   </component>
